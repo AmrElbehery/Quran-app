@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- links -->
+    <link rel="stylesheet" href="style/quran.css">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lateef&family=Reem+Kufi&display=swap" rel="stylesheet">
+    <title>مسلم</title>
+</head>
+
+<body>
+    <div class="button-scroll">
+        <button><i class="fas fa-angle-double-up"></i></button>
+    </div>
+
+    <!--scroll btn  -->
+
+    <!-- contact -->
+
+    <div class="contact-app">
+        <div class="contactbox">
+            <div class="facebook"><a href="#"><i class="fab fa-facebook"></i></a> </div>
+            <div class="twitter"> <a href="#"><i class="fab fa-twitter"></i></a> </div>
+            <div class="WhatsApp"><a href="#"><i class="fab fa-whatsapp"></i></a> </div>
+        </div>
+    </div>
+
+    <!-- contact -->
+
+    <!-- start Nav -->
+    <nav class="container">
+        <div class="box-container">
+            <i class="fas fa-bars" id="bar-one"></i>
+            <div class="logo">
+                <h2>مسلم</h2>
+            </div>
+            <div class="ul-box">
+                <ul>
+                    <li><a href="#">الصفحة الرئيسية</a></li>
+                    <li><a href="#ask">الاذكار</a></li>
+                    <li><a href="#">تواصل معنا</a></li>
+                    <li><a href="#">اسلاميات</a></li>
+                </ul>
+            </div>
+            <div class="sign">
+                <h2><a href="#">تسجل الدخول</a></h2>
+            </div>
+        </div>
+    </nav>
+    <!-- end Nav -->
+
+    <!-- start header -->
+    <div class="container-head">
+        <div class="content">
+            <h1>مسلم</h1>
+            <p>للمساعدة في حفظ القران الكريم من خلال وضع خطة يومية لحفظه وجعله يتلي بصورة صحيحة</p>
+            <form>
+                <input type="search" placeholder="اسم السورة" maxlength="30" id="search">
+                <input type="submit" value="ابحث" name="search">
+            </form>
+            <button class="botn"><a href="#start">لبدأ الرحلة اضغط هنا </a></button>
+        </div>
+    </div>
+
+    <!-- end header -->
+
+    <!-- start landing -->
+
+    <section class="landing" id="start">
+        <h1 class="heading">بداية الرحلة</h1>
+        <div class="container-land">
+            <div class="box-land">
+                <h2>الاستماع للقران الكريم باصوات الشيوخ</h2>
+                <button class="btn-box" id="f-btn">اضغط هنا</button>
+                <div class="details" id="details">
+
+                    <h1>استمع للقرأن الكريم بصوت الشيخ المفضل</h1>
+                    <div class="box">
+                        <p>الشيخ : عبد الباسط عبد الصمد</p>
+                        <button id="firis-audio" onclick="played();" class="All-btns">
+                            <i class="fas fa-play"></i>
+                        </button>
+                        <audio class="firist-audio">
+                            <source src="quran-images/videoplayback.m4a">
+                        </audio>
+                    </div>
+
+                    <div class="box">
+                        <p> الشيخ : ياسر الدوسري</p>
+                        <button id="next-audio" onclick="nplayed();" class="All-btns">
+                            <i class="fas fa-play"></i>
+                        </button>
+                        <audio class="next-audio">
+                            <source src="quran-images/videoplayback (2).m4a">
+                        </audio>
+                    </div>
+
+                    <div class="box">
+                        <p>الشيخ : السديس</p>
+                        <button id="third-audio" onclick="tplayed();" class="All-btns">
+                            <i class="fas fa-play"></i>
+                        </button>
+                        <audio class="third-audio">
+                            <source src="quran-images/videoplayback (3).m4a">
+                        </audio>
+                    </div>
+
+                    <div class="box">
+                        <p>الشيخ : ناصر القطامي</p>
+                        <button id="fourth-audio" onclick="fplayed();" class="All-btns">
+                            <i class="fas fa-play"></i>
+                        </button>
+                        <audio class="fourth-audio">
+                            <source src="quran-images/videoplayback (4).m4a">
+                        </audio>
+                    </div>
+
+                </div>
+            </div>
+            <!-- ######################################## -->
+
+            <div class="box-land">
+                <h2>التفسير</h2>
+                <button class="btn-box" id="s-btn">اضغط هنا</button>
+
+                <div class="s-details" id="details">
+                    <h1>تفسيرات القرأن الكريم</h1>
+
+                    <div class="box">
+                        <p><a href="#">تفسير سورة الفاتحة</a></p>
+                    </div>
+
+                    <div class="box">
+                        <p><a href="#">تفسير سورة الفلق</a></p>
+                    </div>
+
+                    <div class="box">
+                        <p><a href="#">تفسير سورة الناس</a></p>
+                    </div>
+
+                    <div class="box">
+                        <p><a href="#">تفسير سورة الكوثر</a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- ################################# -->
+            <div class="box-land">
+                <h2>الصوتيات</h2>
+                <button class="btn-box" id="t-box">اضغط هنا</button>
+                <div class="t-details" id="details">
+                    <h1>وضع خطة لحفظ القران</h1>
+                    <div class="box">
+                        <p>وضع خطة لحفظ القران</p>
+                    </div>
+
+                    <div class="box">
+                        <p>وضع خطة لحفظ القران</p>
+                    </div>
+
+                    <div class="box">
+                        <p>وضع خطة لحفظ القران</p>
+                    </div>
+
+                    <div class="box">
+                        <p>وضع خطة لحفظ القران</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ############ -->
+            <div class="box-land">
+                <h2>الاذكار</h2>
+                <button class="btn-box" id="l-box"> اضغط هنا</button>
+                <div class="l-details" id="details">
+                    <h1>جميع الاذكار</h1>
+                    <div class="box">
+                        <p><a href="#">اذكار الصباح</a></p>
+                    </div>
+
+                    <div class="box">
+                        <p><a href="#">اذكار المساء</a></p>
+                    </div>
+
+                    <div class="box">
+                        <p><a href="#">اذكار قبل النوم</a></p>
+                    </div>
+
+                    <div class="box">
+                        <p><a href="#">اذكار الاذان</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </Section>
+    <!-- End landing -->
+
+    <!-- start video -->
+    <video controls>
+        <source src="quran-images/WhatsApp Video 2022-01-01 at 6.45.54 PM.mp4" type="video/mp4">
+    </video>
+
+    <div class="Azkar">
+        <div class="Azkar-box">
+            <h2>أذكار المساء:</h2>
+            <p>أَمْسَيْـنا وَأَمْسـى المـلكُ لله وَالحَمدُ لله ، لا إلهَ إلاّ اللّهُ وَحدَهُ لا شَريكَ لهُ، لهُ المُـلكُ
+                ولهُ الحَمْـد،
+                وهُوَ على كلّ شَيءٍ قدير ، رَبِّ أسْـأَلُـكَ خَـيرَ ما في هـذهِ اللَّـيْلَةِ وَخَـيرَ ما بَعْـدَهـا ،
+                وَأَعـوذُ بِكَ
+                مِنْ شَـرِّ ما في هـذهِ اللَّـيْلةِ وَشَرِّ ما بَعْـدَهـا ، رَبِّ أَعـوذُبِكَ مِنَ الْكَسَـلِ وَسـوءِ
+                الْكِـبَر ، رَبِّ
+                أَعـوذُ بِكَ مِنْ عَـذابٍ في النّـارِ وَعَـذابٍ في القَـبْر.
+            </p>
+        </div>
+        <div class="Azkar-box">
+            <h2>أذكار الصباح:</h2>
+            <p>أَصْـبَحْنا وَأَصْـبَحَ المُـلْكُ لله وَالحَمدُ لله ، لا إلهَ إلاّ اللّهُ وَحدَهُ لا شَريكَ لهُ، لهُ
+                المُـلكُ ولهُ
+                الحَمْـد، وهُوَ على كلّ شَيءٍ قدير ، رَبِّ أسْـأَلُـكَ خَـيرَ ما في هـذا اليوم وَخَـيرَ ما بَعْـدَه ،
+                وَأَعـوذُ بِكَ
+                مِنْ شَـرِّ ما في هـذا اليوم وَشَرِّ ما بَعْـدَه، رَبِّ أَعـوذُبِكَ مِنَ الْكَسَـلِ وَسـوءِ الْكِـبَر ،
+                رَبِّ أَعـوذُ
+                بِكَ مِنْ عَـذابٍ في النّـارِ وَعَـذابٍ في القَـبْر.
+            </p>
+        </div>
+        <div class="Azkar-box">
+            <h2>أذكارالاذان:</h2>
+            <p>ما يقال عند سماع الأذان:
+                يَقُولُ مِثْلَ مَا يَقُولُ الـمُؤَذِّنُ إلاَّ فِي "حَيَّ عَلَى الصَّلاةِ وَحَيَّ عَلَى الفَلاَحِ"
+                فَيَقُولُ: "لاَ حَوْلَ
+                وَلا قُوَّةَ إلاَّ باللَّهِ".
+            </p>
+        </div>
+        <div class="Azkar-box">
+            <h2>أذكار المسجد:</h2>
+            <p>دُعَاءُ الذَّهَابِ إلَى المَسْجِدِ
+                اللّهُـمَّ اجْعَـلْ في قَلْبـي نورا ، وَفي لِسـاني نورا، وَاجْعَـلْ في سَمْعي نورا، وَاجْعَـلْ في بَصَري
+                نورا،
+                وَاجْعَـلْ مِنْ خَلْفي نورا، وَمِنْ أَمامـي نورا، وَاجْعَـلْ مِنْ فَوْقـي نورا ، وَمِن تَحْتـي نورا
+                .اللّهُـمَّ
+                أَعْطِنـي نورا.
+            </p>
+        </div>
+        <div class="Azkar-box">
+            <h2>أذكار دخول المنزل :</h2>
+            <p>أذكار الدخول إلى المنزل
+                بِسْـمِ اللهِ وَلَجْنـا، وَبِسْـمِ اللهِ خَـرَجْنـا، وَعَلـى رَبِّنـا تَوَكّلْـنا.
+            </p>
+        </div>
+        <div class="Azkar-box">
+            <h2>دعاء الكرب:</h2>
+            <p>لا إله إلا الله العظيم الحليم، لا إله إلا الله رب العرش العظيم، لا إله إلا الله رب السماوات، ورب الأرض
+                ورب العرش الكريم
+                اللهم رحمتك أرجو فلا تكلني إلى نفسي طرفة عين وأصلح لي شأني كله ، لا إله إلا أنت
+                لا إله إلا أنت سبحانك إني كنت من الظالمين
+                الله الله رب لا أشرك به شيئا
+            </p>
+        </div>
+        <div class="Azkar-box">
+            <h2>دعاء زيارة القبور:</h2>
+            <p>السلام عليكم أهل الديار من المؤمنين والمسلمين، وإنا إن شاء الله بكم لاحقون ويرحم الله المستقدمين منا
+                والمستأخرين، أسأل
+                الله لنا ولكم العافية.
+            </p>
+        </div>
+    </div>
+    <!-- end video -->
+
+    <!-- start Big content  -->
+
+    <div class="big-container">
+        <div class="header">
+            <h1>اسلاميات</h1>
+            <ul>
+                <li><a href="#">أدعية</a></li>
+                <li><a href="#">اسلئلة واجوبة</a></li>
+                <li><a href="#">تفسيرات ايات السور</a></li>
+                <li><a href="#">ثقافة اسلامية</a></li>
+                <li><a href="#">فروض وسنن</a></li>
+                <li><a href="#">رمضان 2022</a></li>
+            </ul>
+        </div>
+        <div class="box-big-content">
+            <div class="box-content">
+                <h3>ثقافة اسلامية</h3>
+                <a href="#"><img src="quran-images/أول-ما-يحاسب-عليه-العبد-يوم-القيامة-750x430.jpg" alt=""></a>
+                <p>أول ما يحاسب عليه العبد يوم القيامة</p>
+            </div>
+            <div class="box-content">
+                <h3>دعاء ليلة الامتحان</h3>
+                <a href="#"><img src="quran-images/دعاء-التوفيق-في-الدراسة2.png" alt=""></a>
+                <p>أدعية
+                    دعاء التوفيق في الدراسة</p>
+            </div>
+            <div class="box-content">
+                <h3>قصص نبوية</h3>
+                <a href="#"><img src="quran-images/قصة-أبو-بكر-الصديق-مع-الرسول-في-غار-ثورض-750x430.jpg" alt=""></a>
+                <p>قصة أبو بكر الصديق مع الرسول في غار ثور</p>
+            </div>
+            <div class="box-content">
+                <h3>رمضان 2022</h3>
+                <a href="#"><img src="quran-images/كم-مرة-ذكر-رمضان-في-القران-750x430 (1).jpg" alt=""></a>
+                <p>كم مرة ذكر رمضان في القران وكم مرة ذكر الصيام في القران</p>
+            </div>
+            <div class="box-content">
+                <h3>ثقافة اسلامية</h3>
+                <a href="#"><img src="quran-images/34-28.jpg" alt=""></a>
+                <p>أجمل دعاء يريح القلب ويزيل الهم ويكشف الضر بإذن الله</p>
+            </div>
+            <div class="box-content">
+                <h3>ادعية واذكار</h3>
+                <a href="#"><img src="quran-images/6899-750x430.jpg" alt=""></a>
+                <p>أجمل دعاء للمريض </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- end Big content  -->
+
+    <!-- start contact us -->
+
+    <section class="contact" id="contact">
+        <h1 class="heading"> تواصل <span> معنا</span> </h1>
+        <div class="row">
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <input type="date">
+                    <input type="text" placeholder="adress">
+                </div>
+                <textarea placeholder="massage" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="ارسال">
+            </form>
+        </div>
+    </section>
+
+    <!-- end contact us -->
+
+    <!-- start about us -->
+    <div class="box-aboutus">
+        <div class="about-us">
+            <div class="head">
+                <h2>من نحن</h2>
+                <p>نحن فريق شاب و حيوي من التكنولوجيين المتحمسين، الذين ينشئون و يبتكرون حلولا ف تصميم المواقع</p>
+            </div>
+            <img src="quran-images/logo.jpeg" alt="">
+        </div>
+    </div>
+    <!-- End about us -->
+
+    <!-- strat footer  -->
+    <footer>
+
+        <div class="content">
+            <h1>univeristy of programing</h1>
+            <p> All Rights Are Resived 2022 - 2023&copy;</p>
+        </div>
+
+    </footer>
+    <!-- End footer  -->
+
+    <!-- start script js -->
+    <script src="quran.js"></script>
+    <!-- End script js -->
+</body>
+
+</html>
